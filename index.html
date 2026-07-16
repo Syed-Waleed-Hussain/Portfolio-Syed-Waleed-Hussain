@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hassam Ahmed | Senior Flutter Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#050816;
+color:white;
+overflow-x:hidden;
+}
+
+body::before{
+content:"";
+position:fixed;
+width:600px;
+height:600px;
+background:#4f46e5;
+filter:blur(220px);
+top:-250px;
+left:-250px;
+opacity:.25;
+z-index:-2;
+}
+
+body::after{
+content:"";
+position:fixed;
+width:500px;
+height:500px;
+background:#06b6d4;
+filter:blur(220px);
+right:-180px;
+bottom:-180px;
+opacity:.20;
+z-index:-2;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(15px);
+border-bottom:1px solid rgba(255,255,255,.08);
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#60a5fa;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:28px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#60a5fa;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:140px 8% 80px;
+gap:60px;
+}
+
+.hero-text{
+max-width:650px;
+}
+
+.hero-text h3{
+font-size:22px;
+color:#9ca3af;
+}
+
+.hero-text h1{
+font-size:65px;
+margin:15px 0;
+font-weight:800;
+line-height:1.1;
+}
+
+.hero-text h2{
+font-size:28px;
+font-weight:500;
+color:#60a5fa;
+margin-bottom:20px;
+}
+
+.hero-text p{
+line-height:1.9;
+color:#d1d5db;
+margin-bottom:35px;
+}
+
+.buttons a{
+display:inline-block;
+padding:15px 35px;
+border-radius:12px;
+margin-right:15px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.btn-primary{
+background:#2563eb;
+color:white;
+}
+
+.btn-primary:hover{
+background:#1d4ed8;
+transform:translateY(-3px);
+}
+
+.btn-outline{
+border:2px solid #2563eb;
+color:white;
+}
+
+.btn-outline:hover{
+background:#2563eb;
+}
+
+.hero-image img{
+width:340px;
+border-radius:30px;
+border:4px solid rgba(255,255,255,.1);
+box-shadow:0 25px 60px rgba(37,99,235,.3);
+}
+
+section{
+padding:90px 8%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#60a5fa;
+}
+
+.about{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:40px;
+}
+
+.box{
+background:rgba(255,255,255,.05);
+padding:30px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,.08);
+transition:.3s;
+}
+
+.box:hover{
+transform:translateY(-8px);
+}
+
+.box h3{
+margin-bottom:15px;
+color:#60a5fa;
+}
+
+.box p{
+color:#cbd5e1;
+line-height:1.8;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.skill{
+background:rgba(255,255,255,.05);
+padding:25px;
+border-radius:15px;
+text-align:center;
+border:1px solid rgba(255,255,255,.08);
+transition:.3s;
+}
+
+.skill:hover{
+transform:scale(1.05);
+background:#2563eb;
+}
+
+.skill i{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.project{
+background:rgba(255,255,255,.05);
+border-radius:20px;
+overflow:hidden;
+border:1px solid rgba(255,255,255,.08);
+transition:.3s;
+}
+
+.project:hover{
+transform:translateY(-10px);
+}
+
+.project img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.project-content{
+padding:25px;
+}
+
+.project-content h3{
+margin-bottom:10px;
+}
+
+.project-content p{
+color:#cbd5e1;
+line-height:1.7;
+}
+
+.tags{
+margin-top:15px;
+}
+
+.tags span{
+display:inline-block;
+background:#2563eb;
+padding:6px 12px;
+border-radius:20px;
+margin:5px;
+font-size:13px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+text-align:center;
+}
+
+.stat{
+padding:35px;
+background:rgba(255,255,255,.05);
+border-radius:20px;
+}
+
+.stat h2{
+font-size:45px;
+color:#60a5fa;
+margin-bottom:10px;
+}
+
+.contact{
+text-align:center;
+}
+
+.socials{
+margin-top:30px;
+}
+
+.socials a{
+display:inline-flex;
+justify-content:center;
+align-items:center;
+width:60px;
+height:60px;
+border-radius:50%;
+background:#2563eb;
+color:white;
+margin:10px;
+font-size:22px;
+text-decoration:none;
+transition:.3s;
+}
+
+.socials a:hover{
+transform:translateY(-6px);
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:#030712;
+margin-top:60px;
+color:#94a3b8;
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.hero-text h1{
+font-size:45px;
+}
+
+.hero-image img{
+width:260px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Hassam.</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h3>Hello, I'm</h3>
+
+<h1>Hassam Ahmed</h1>
+
+<h2>Senior Flutter Developer</h2>
+
+<p>
+Passionate Flutter Developer with 4+ years of experience building high-performance Android & iOS applications using Flutter, Firebase, REST APIs, GetX, Bloc, Provider and AI-powered solutions.
+</p>
+
+<div class="buttons">
+<a href="#" class="btn-primary">Download CV</a>
+<a href="#projects" class="btn-outline">View Projects</a>
+</div>
+
+</div>
+
+<div class="hero-image">
+<img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43?auto=format&fit=crop&w=800&q=80">
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="about">
+
+<div class="box">
+<h3>Professional Experience</h3>
+<p>
+Senior Flutter Developer with expertise in Flutter, Firebase, REST APIs, Clean Architecture, State Management and scalable mobile applications.
+</p>
+</div>
+
+<div class="box">
+<h3>What I Build</h3>
+<p>
+Healthcare Apps, Food Delivery Apps, School Management Systems, Business Platforms, AI Integrations, Ecommerce and Custom Enterprise Solutions.
+</p>
+</div>
+
+<div class="box">
+<h3>Technologies</h3>
+<p>
+Flutter • Dart • Firebase • Node.js • Laravel • GetX • Bloc • Provider • Stripe • Google Maps • AI APIs
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill"><i class="fa-brands fa-flutter"></i><h3>Flutter</h3></div>
+
+<div class="skill"><i class="fa-solid fa-mobile-screen"></i><h3>Dart</h3></div>
+
+<div class="skill"><i class="fa-solid fa-fire"></i><h3>Firebase</h3></div>
+
+<div class="skill"><i class="fa-solid fa-code"></i><h3>REST API</h3></div>
+
+<div class="skill"><i class="fa-solid fa-layer-group"></i><h3>GetX</h3></div>
+
+<div class="skill"><i class="fa-solid fa-database"></i><h3>MySQL</h3></div>
+
+<div class="skill"><i class="fa-solid fa-brain"></i><h3>AI</h3></div>
+
+<div class="skill"><i class="fa-solid fa-cloud"></i><h3>Cloud</h3></div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">Featured Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<img src="https://picsum.photos/600/400?1">
+<div class="project-content">
+<h3>ConsultDent</h3>
+<p>Healthcare platform connecting patients with dentists.</p>
+<div class="tags">
+<span>Flutter</span>
+<span>Firebase</span>
+<span>API</span>
+</div>
+</div>
+</div>
+
+<div class="project">
+<img src="https://picsum.photos/600/400?2">
+<div class="project-content">
+<h3>Tradepedia</h3>
+<p>Modern business application with clean architecture.</p>
+<div class="tags">
+<span>Flutter</span>
+<span>Laravel</span>
+<span>MySQL</span>
+</div>
+</div>
+</div>
+
+<div class="project">
+<img src="https://picsum.photos/600/400?3">
+<div class="project-content">
+<h3>Hungry Hub</h3>
+<p>Complete food delivery ecosystem for customers, stores and riders.</p>
+<div class="tags">
+<span>Flutter</span>
+<span>Firebase</span>
+<span>Maps</span>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Achievements</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h2>4+</h2>
+<p>Years Experience</p>
+</div>
+
+<div class="stat">
+<h2>40+</h2>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat">
+<h2>20+</h2>
+<p>Technologies</p>
+</div>
+
+<div class="stat">
+<h2>100%</h2>
+<p>Client Satisfaction</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Let's Work Together</h2>
+
+<div class="contact">
+
+<p>Email : hassam@example.com</p>
+<p>Karachi, Pakistan</p>
+
+<div class="socials">
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-whatsapp"></i></a>
+
+<a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Hassam Ahmed • Senior Flutter Developer • Built with ❤️ using HTML
+
+</footer>
+
+</body>
+</html>
