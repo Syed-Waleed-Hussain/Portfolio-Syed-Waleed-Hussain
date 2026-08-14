@@ -1,0 +1,169 @@
+{
+  "profile": {
+    "name": "Syed Waleed Hussain",
+    "title": "AI/ML Engineer, Full-Stack Developer & SEO Growth Strategist",
+    "institution": "FAST NUCES (BS Computer Science, 2023 - 2027)",
+    "completed_jobs": "59+ Upwork & Freelance Client Contracts",
+    "job_success_score": "100%",
+    "contact": {
+      "email": "syedwaleedhussain11@gmail.com",
+      "phone": "+92 315 2593961",
+      "linkedin": "https://www.linkedin.com/in/syed-waleed-hussain-65a4452b1/",
+      "github": "https://github.com/Syed-Waleed-Hussain",
+      "portfolio": "https://waleed-portfolio-wine.vercel.app",
+      "resume": "https://docs.google.com/document/d/1T4-qvndB1U3vKGb4L9Bkmn4wjTSP2GNX/edit?usp=sharing&ouid=114806084618813262088&rtpof=true&sd=true"
+    }
+  },
+  "services": [
+    {
+      "category": "SEO & Authority Link Building",
+      "description": "Data-driven SEO campaigns designed to boost domain rating, scale organic search volume, and generate qualified B2B/B2C leads.",
+      "deliverables": [
+        "High-DR contextual link building and editorial outreach",
+        "Technical SEO audits (Core Web Vitals, schema markup, crawl efficiency)",
+        "Keyword research, search intent mapping, and topic clusters",
+        "Programmatic SEO and high-converting content architecture"
+      ],
+      "case_studies": [
+        "Built 120+ high-authority backlinks for a B2B SaaS platform, driving monthly organic sessions from 4k to 65k within 6 months.",
+        "Scaled organic traffic by 240% in competitive hunting & outdoor e-commerce niches through targeted editorial link insertions."
+      ]
+    },
+    {
+      "category": "Full-Stack Web Development",
+      "description": "High-performance, modern web applications, client portals, and custom CMS solutions engineered for conversion and speed.",
+      "deliverables": [
+        "Custom web applications with React, Next.js, and Python backends (Flask/FastAPI)",
+        "Responsive, mobile-optimized UI/UX with modern animations (Vanilla CSS, Tailwind, GSAP)",
+        "REST API development, GraphQL, and microservice integration",
+        "Custom WordPress design, theme development, and speed optimization"
+      ],
+      "case_studies": [
+        "Engineered and launched Jynko Tech (jynkotech.com) with sub-second TTFB, Cloudflare security, and responsive layout.",
+        "Created MapMeal (Smart Restaurant Finder), combining constraint-based recommender engines with dynamic React interfaces."
+      ]
+    },
+    {
+      "category": "AI Automation & RAG Systems",
+      "description": "Production-ready Generative AI solutions, custom RAG pipelines, and automated business workflows to eliminate repetitive tasks.",
+      "deliverables": [
+        "Retrieval-Augmented Generation (RAG) over proprietary PDFs, docs, and databases",
+        "Autonomous AI Agent workflows using LangChain, LangGraph, and Flowise",
+        "Zero-code / Low-code workflow automation with n8n, Make, and Zapier",
+        "Custom computer vision and deep learning models (YOLO, OpenCV, CNNs)"
+      ],
+      "case_studies": [
+        "Developed UniSense AI, an intelligent RAG chatbot utilizing vector embeddings to answer academic queries with exact citations.",
+        "Built automated lead enrichment and classification pipelines using LLM function calling."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "mapmeal",
+      "title": "Smart Restaurant Finder (MapMeal)",
+      "category": "Full-Stack Web / Recommender AI",
+      "tech_stack": ["React", "Python", "Flask", "Recommender Systems", "REST API"],
+      "description": "A constraint-based recommendation engine and full-stack web platform built to optimize restaurant discovery based on dietary restrictions, budget, cuisine preferences, and location.",
+      "github_url": "https://github.com/Syed-Waleed-Hussain/Smart_Restuarant_Finder_Meal-Map",
+      "key_outcomes": "Sub-100ms multi-variable filtering, responsive React UI, dynamic ranking algorithm."
+    },
+    {
+      "id": "unisense-ai",
+      "title": "UniSense AI",
+      "category": "AI / RAG / LLM Chatbots",
+      "tech_stack": ["Python", "LangChain", "Vector Embeddings", "LLMs", "ChromaDB", "Flask"],
+      "description": "A production-grade Retrieval-Augmented Generation chatbot engineered for university students to query academic syllabi, grading policies, and campus rules with accurate source citations.",
+      "github_url": "https://github.com/Syed-Waleed-Hussain/Unisence-AI",
+      "key_outcomes": "Zero hallucinations on institutional regulations, fast vector search latency, high student engagement."
+    },
+    {
+      "id": "jynkotech",
+      "title": "Jynko Tech Official Web Platform",
+      "category": "Client Project / Web Architecture",
+      "tech_stack": ["JavaScript", "HTML5/CSS3", "Vercel", "Cloudflare DNS", "SEO Optimization"],
+      "description": "Official corporate website deployment for an industrial technology company, featuring zero-bloat architecture, custom typography, responsive design, and B2B contact capture.",
+      "live_url": "https://jynkotech.com",
+      "key_outcomes": "99+ Google Lighthouse performance score, seamless Vercel edge deployment, instant mobile loading."
+    },
+    {
+      "id": "saas-seo-authority",
+      "title": "Building Authority & Link Architecture for SaaS Brands",
+      "category": "SEO & Digital Strategy",
+      "tech_stack": ["Ahrefs", "Semrush", "Editorial Outreach", "Technical SEO", "Content Clusters"],
+      "description": "Strategic SEO initiative and backlink campaign executed for high-growth SaaS clients, establishing domain authority through tiered high-DR guest posts and topical relevance.",
+      "key_outcomes": "Generated 120+ DR60+ contextual links; accelerated organic traffic from 4,000 to 65,000+ monthly unique visitors."
+    },
+    {
+      "id": "hunting-niche-seo",
+      "title": "SEO Backlinking & Content Optimization for Outdoor Brands",
+      "category": "SEO & E-Commerce",
+      "tech_stack": ["Link Building", "Competitor Gap Analysis", "Keyword Strategy", "On-Page SEO"],
+      "description": "Niche-targeted link acquisition and content revamp campaign for high-ticket outdoor and hunting gear e-commerce platforms.",
+      "key_outcomes": "+240% organic visibility increase, top 3 rankings for 18 high-intent commercial keywords."
+    },
+    {
+      "id": "urban-heat-island",
+      "title": "Karachi Urban Heat Island (UHI) Mitigation Simulation",
+      "category": "Geospatial Data Science / Machine Learning",
+      "tech_stack": ["Google Earth Engine (GEE)", "Python", "Satellite Remote Sensing", "Random Forest"],
+      "description": "Geospatial machine learning analysis leveraging satellite thermal imagery to identify high-risk urban heat zones and simulate green infrastructure mitigation strategies in Karachi.",
+      "github_url": "https://github.com/Syed-Waleed-Hussain/GEE-MachineLearning-Karachi-UHI-Mitigation-Simulation",
+      "key_outcomes": "High-resolution thermal anomaly mapping and data-backed urban planning recommendations."
+    },
+    {
+      "id": "emnist-recognizer",
+      "title": "Custom EMNIST 62-Class Alphanumeric Recognizer",
+      "category": "Deep Learning / Computer Vision",
+      "tech_stack": ["PyTorch", "OpenCV", "CNN", "Data Augmentation"],
+      "description": "62-class deep convolutional neural network capable of recognizing uppercase letters, lowercase letters, and digits from handwritten inputs with extreme accuracy.",
+      "github_url": "https://github.com/Syed-Waleed-Hussain/Custom-EMNIST-Recognizer-62-Class-Alphanumeric-Classification",
+      "key_outcomes": "High validation accuracy across 62 distinct character classes, real-time webcam inference."
+    },
+    {
+      "id": "questscript",
+      "title": "QuestScript Compiler",
+      "category": "Compilers & Systems Programming",
+      "tech_stack": ["C++", "Compiler Design", "Lexical Analysis", "Recursive Descent Parsing", "AST"],
+      "description": "End-to-end custom programming language compiler built from scratch, implementing lexing, syntax trees, symbol table resolution, type checking, and executable generation.",
+      "github_url": "https://github.com/Syed-Waleed-Hussain/QuestScript-Compiler",
+      "key_outcomes": "Demonstrates mastery in low-level memory handling, data structures, and computer science fundamentals."
+    },
+    {
+      "id": "pakistan-real-estate",
+      "title": "Pakistan House Price Prediction Model",
+      "category": "Machine Learning / Predictive Modeling",
+      "tech_stack": ["Python", "Scikit-Learn", "Regression Models", "Pandas", "Matplotlib"],
+      "description": "Predictive analytics engine analyzing structural attributes, locality ratings, and historical housing market metrics to forecast property prices.",
+      "github_url": "https://github.com/Syed-Waleed-Hussain/Pakistan-House-Price-Prediction",
+      "key_outcomes": "Robust cross-validation performance and actionable property valuation insights."
+    },
+    {
+      "id": "gemini-clone",
+      "title": "Gemini AI Clone Application",
+      "category": "AI Web Applications",
+      "tech_stack": ["React", "Tailwind CSS", "Gemini API", "Streaming Response"],
+      "description": "Modern AI chat application inspired by Google Gemini, featuring real-time token streaming, prompt suggestions, and sleek dark mode UI.",
+      "github_url": "https://github.com/Syed-Waleed-Hussain/Gemini-AI-Clone-Application",
+      "key_outcomes": "Fluid streaming interactions, modern glassmorphism design, low-latency API integration."
+    }
+  ],
+  "faq": [
+    {
+      "q": "How can you help my SaaS or E-commerce business grow?",
+      "a": "I combine high-authority link building and technical SEO with conversion-optimized web development. For SaaS and e-commerce brands, I build high-DR contextual backlink profiles and high-speed web apps that turn organic search visitors into paying customers."
+    },
+    {
+      "q": "What is your track record on Upwork?",
+      "a": "I have completed 59+ successful client contracts on Upwork with 100% positive 5-star ratings across international clients in the US, UK, Australia, and Europe."
+    },
+    {
+      "q": "Can you build custom AI assistants or RAG solutions for my business?",
+      "a": "Yes! I build production-grade RAG systems using vector databases (ChromaDB/Pinecone), LangChain, and modern LLMs (OpenAI/Gemini) that allow your team or customers to query internal company knowledge accurately with zero hallucinations."
+    },
+    {
+      "q": "What is the best way to get started or hire you?",
+      "a": "You can reach out directly via email at syedwaleedhussain11@gmail.com, message me on WhatsApp at +92 315 2593961, or let's hop on a quick 15-minute discovery call to discuss your project scope."
+    }
+  ]
+}
